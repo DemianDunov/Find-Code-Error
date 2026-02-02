@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Code Error Challenge</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>Find Code Error</h1>
+
+  <div class="info">
+    <div>Waktu: <span id="time">90</span>s</div>
+    <div>Soal: <span id="level">-</span></div>
+  </div>
+
+  <pre id="code"></pre>
+
+  <div class="input-area">
+    <input id="answer" placeholder="Contoh: AE7">
+    <button id="checkBtn">CEK</button>
+  </div>
+
+  <p id="message"></p>
+ <div>
+ <h2>Cara Bermain</h2>
+ <ol>
+  <li>Dilarang Melakukan Curang Dengan Cara Apapun</li>
+  <li>
+    Mencari salah karakter (substitusi):
+    <code>l → 1</code>, <code>o → 0</code>, dll
+  </li>
+  <li>
+    Mencari huruf kapital ↔ kecil yang salah :
+    <code>i → I</code>, <code>M → m</code>
+  </li>
+  <li>
+    mencari karakter menjadi karakter lain, misal :
+    <code>&lt;style&gt;</code> menjadi
+    <code>&lt;sty_le&gt;</code> atau
+    <code>&lt;styl9&gt;</code>
+  </li>
+</ol>
+
+<div class="version-bar">
+  <span class="version-text">Versi: v1.0 (Beta Version)</span>
+</div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
